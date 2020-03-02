@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+    <body>
+        <div style="float: right;"><span id="time">75</span></div>
+    </body>
+    <div class = "container" style="max-width: 780px; display: block;" id="main-content-area">
+        <div class="row justify-content-center" style="text-align: center;">
+            <h1>Coding Quiz Time</h1>
+            <p> It's everyone's favorite, trivia! But without the bar, the snacks, and the sad prizes you wouldn't even spend your tickets on at Dave and Buster's to bring home.</p>
+            <p>Here are the rules:</p>
+        <div class="row justify-content-center" style="text-align: left;">
+            <div class="col-8">
+            <ul>
+                <li>Once you click start, a timer will begin. The whole scoring system of this quiz is based on the timer - so that's important!</li>
+                <li>For each question, pick one answer. There is only one correct answer. Otherwise, contact your quiz master and contest.<b>You only have one attempt per question, then you move forward; it's about speed!</b></li>
+                <li>When you get a question right, you'll advance.</li>
+                <li>When you get a question wrong, 5 seconds will be deducted from your time.</li>
+                <li>The game is over when all the questions are answered or the time runs out.</li>
+                <li>Your final score is what is left on the clock.</li>
+            </ul>
+            </div>
+        </div>
+            <p>To start your quizzing adventure, click the button below!</p>
+        </div>
+        <div class="row justify-content-center">
+             <button type="button" class="btn btn-primary" id="start">Start Quizzing!</button>
+        </div>
+
+    </div>
+    <div class="container justify-content-center" style="max-width: 500px; display: none;" id="quiz-questions">
+        <div id="question"></div>
+        <button id="question1"></button>
+        <button id="question2"></button>
+        <button id="question3"></button>
+        <button id="question4"></button>
+        <div>Previous question: <span id="result" style="font-style: italic;"></span></div>
+    
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
