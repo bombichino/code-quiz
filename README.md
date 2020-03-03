@@ -1,5 +1,22 @@
 # code-quiz
 
+## An Early Push
+
+The web app is still missing some key functions:
+
+-full question and answer array restructure to mirror that of the first array
+-ending the game with questions/timer run out
+-entering high score
+-storing score on local storage
+-viewing high scores functionality
+-more styling/css and responsiveness to add.
+
+To be updated presently.
+
+
+
+## Assignment Criteria
+
 04 Web APIs: Code Quiz
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
