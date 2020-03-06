@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Quiz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css" />
 
 
 </head>
 <body>
-    <body>
-        <div style="float: right;"><span id="time">Get Ready...</span></div>
-    </body>
-    <div class = "container" style="max-width: 780px; display: block;" id="main-content-area">
+    <section class="clearfix"> 
+        <div id="timer" style="float: right"><span id="time" style="display:block" class="clearfix">Get Ready...</span></div>
+        <div id="see-high-scores" style="float: left; display:block" class="clearfix">See High Scores</div>
+    </section>   
+    <section class = "container" style="max-width: 780px; display: block;" id="main-content-area">
         <div class="row justify-content-center" style="text-align: center;">
             <h1>Coding Quiz Time</h1>
             <p> It's everyone's favorite, trivia! But without the bar, the snacks, and the sad prizes you wouldn't even spend your tickets on at Dave and Buster's to bring home.</p>
@@ -36,9 +37,10 @@
              <button type="button" class="btn btn-primary" id="start">Start Quizzing!</button>
         </div>
 
-    </div>
-    <div class="container justify-content-center" style="max-width: 500px; display: none;" id="quiz-questions">
-        <div id="question"></div>
+    </section>
+    <section class="container justify-content-center" style="max-width: 500px; display: none;" id="quiz-questions">
+        <div id="question" style="height: 30px;"></div>
+        <hr>
         <ul>
         <button type="button" class="btn btn-secondary" id="option1"></button>
         <br>
@@ -48,10 +50,37 @@
         <br>
         <button type="button" class="btn btn-secondary" id="option4"></button>
         <br>
-        <div>Previous question retult: <span id="result" style="font-style: italic;"></span></div>
      </ul>
-    
-    </div>
+     <div>Previous answer (highlighted): <span id="result" style="font-style: italic;"></span></div>
+    </section>
+    <section class="container justify-content-left" style="max-width: 780px; display: none" id="score-enter">
+        <h1>You're All Done!</h1>
+        <br>
+        <p>Your final score is: <span id="final-score" style="font-weight: bold;"></span></p>
+            <div class="row">
+                <div class="col-8">
+                    <input class="form-control" type="text" placeholder="Enter your initials:" id="initials" style="max-width: 500px;">
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-success" id="submit">Submit</button>
+                </div>
+            </div>
+        
+        </div>
+    </section>
+    <section class="container justify-content-center" style="max-width: 300px; display: none" id="score-page">
+        <h2>High Scores:</h2>
+        <br>
+        <p id="here-is-yours"></p>
+        <br>
+        <ul id="score-list">
+
+        </ul>
+        <div class="row">
+            <button type="button" class="btn btn-success" id="test-again">Test Again!</button>
+            <button type="button" class="btn btn-success" id="clear-scores">Clear Scores!</button>
+        </div>
+    </section>
 
 
     <script src="script.js"></script>

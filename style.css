@@ -1,0 +1,14 @@
+.container{
+   margin-top: 50px;
+}
+
+.clearfix::after{
+    overflow: auto;
+}
+
+.btn.btn-secondary{
+    background-color: purple;
+    justify-content: left;
+    width:300px;
+}
+

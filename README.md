@@ -2,16 +2,13 @@
 
 ## An Early Push
 
-The web app is still missing some key functions:
+This web app produces a coding quiz to be taken, the goal of which is to track scores and compare with peers. As the web app utilizes local storage, the peers must, of course, take the quiz on the same machine. However, it delivers all of the needed functionality described below.
 
--full question and answer array restructure to mirror that of the first array
--ending the game with questions/timer run out
--entering high score
--storing score on local storage
--viewing high scores functionality
--more styling/css and responsiveness to add.
+Projecting down the line, some tweaks would included updated and modified CSS and improved accessibility tags to begin. I do have some questions and research to do on this subject and will be a focus heading into the next assignment.
 
-To be updated presently.
+## Chief Execution
+
+Utilizing material from all weeks leading up to four (and the occasional trick picked up during week 5 for reference and inspiration), created the complete HTML, CSS, and Javascript from scratch.
 
 
 
